@@ -29,3 +29,5 @@ Version 1.3 update: adds the Terra Nova Development banner artwork as the top we
 Version 1.4 update: banner width reduced by 40% (shown at 60% width), centered, with proportions preserved.
 
 Version 1.5: Removed all text and overlay gradients from the banner. Portfolio heading, subtitle, and Buy Me a Coffee button appear beneath the image.
+
+Version 1.6: Facebook/LinkedIn Open Graph and X Twitter Card metadata. Added images/myprojects-social-v1.6.jpg (1200x630). Live site must deploy before social share preview can update. Share canonical URL https://myprojects-r3j5.onrender.com/; rescrape with Facebook Sharing Debugger and LinkedIn Post Inspector if cached.
