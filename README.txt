@@ -22,3 +22,6 @@ Note: Do not upload only index.html; the portraits and project images require th
 ZIP CONTENTS: FLAT ROOT (index.html and README.txt at root; images/ next to them).
 
 Version 1.1: GameTopia project card link updated to https://gametopia-playtest.onrender.com/
+
+
+Version 1.3 update: adds the Terra Nova Development banner artwork as the top website banner.
