@@ -1,3 +1,5 @@
+MyProjects v1.2 — Added clickable contact email bill.butts@greennet.com to the biography.
+
 MyProjects Website — Version 1.0
 
 Terra Nova Development — MyProjects — November 12, 2026 update
@@ -18,3 +20,5 @@ Then commit to main. Render should redeploy if Auto Deploy is enabled.
 Note: Do not upload only index.html; the portraits and project images require the images/ directory.
 
 ZIP CONTENTS: FLAT ROOT (index.html and README.txt at root; images/ next to them).
+
+Version 1.1: GameTopia project card link updated to https://gametopia-playtest.onrender.com/
