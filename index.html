@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Willis Butts, programmer since 1980 and experienced systems designer. Explore software, websites and community projects. Programming services starting at $30 per hour.">
-<title>Willis Butts | Terra Nova Development — My Projects v1.4</title>
+<title>Willis Butts | Terra Nova Development — My Projects v1.5</title>
 <style>
 :root{color-scheme:dark;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
 *{box-sizing:border-box}
@@ -15,13 +15,12 @@ header{position:relative;overflow:hidden;padding:0;text-align:center;border-bott
 header .eyebrow{font-size:.88rem;text-transform:uppercase;letter-spacing:.19em;color:#b9eafc;font-weight:700}
 h1{font-size:clamp(2.1rem,5vw,3.7rem);line-height:1.15;margin:10px 0}
 header .subtitle{font-size:1.13rem;color:#e5f3fb;margin:0}
-.hero-banner{position:relative;width:60%;max-width:960px;aspect-ratio:3/2;min-height:auto;display:flex;align-items:center;justify-content:center;margin:24px auto;border-radius:22px;overflow:hidden;box-shadow:0 12px 34px rgba(0,0,0,.35)}
-.hero-banner::before{content:"";position:absolute;inset:0;background:url('images/terra-nova-banner.webp') center/cover no-repeat}
-.hero-banner::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,18,33,.18),rgba(8,18,33,.45) 48%,rgba(8,18,33,.78))}
-.hero-content{position:relative;z-index:1;max-width:920px;padding:36px 20px 42px}
-.hero-content h1{font-size:clamp(2rem,4.2vw,4rem);text-shadow:0 4px 20px rgba(0,0,0,.45)}
-.hero-content .subtitle,.hero-content .eyebrow{color:#eef8ff;text-shadow:0 2px 14px rgba(0,0,0,.45)}
-
+/* Display the complete artwork alone, with no overlaying text or gradients. */
+.hero-banner{display:block;width:60%;max-width:960px;height:auto;margin:24px auto 0;border-radius:22px;overflow:hidden;box-shadow:0 12px 34px rgba(0,0,0,.35)}
+.hero-banner img{display:block;width:100%;height:auto}
+.hero-content{max-width:920px;margin:0 auto;padding:24px 20px 36px}
+.hero-content h1{font-size:clamp(2rem,4.2vw,4rem);margin:9px 0 10px}
+.hero-content .subtitle,.hero-content .eyebrow{color:#eef8ff}
 .coffee-btn{display:inline-flex;align-items:center;justify-content:center;margin-top:23px;background:#ffdd6b;color:#242319;text-decoration:none;font-weight:800;border-radius:999px;padding:12px 24px;box-shadow:0 5px 18px #0003;transition:transform .15s,background .15s}
 .coffee-btn:hover{background:#fff0a7;transform:translateY(-2px)}
 main{max-width:1130px;margin:auto;padding:34px 20px 76px}
@@ -50,19 +49,18 @@ main{max-width:1130px;margin:auto;padding:34px 20px 76px}
 footer{border-top:1px solid #355873;text-align:center;padding:30px 20px;color:#b8cddb;font-size:.9rem}
 footer a{white-space:nowrap}
 @media(max-width:900px){.hero-banner{width:80%}}
-@media(max-width:650px){.hero-banner{width:100%;margin:0 auto;border-radius:0;aspect-ratio:3/2}.hero-content{padding:30px 17px 34px}.about{grid-template-columns:1fr;padding:20px}.portrait-box{max-width:190px;margin:auto}.grid{grid-template-columns:1fr}.project{min-height:0}}
+@media(max-width:650px){.hero-banner{width:100%;margin:0 auto;border-radius:0}.hero-content{padding:24px 17px 30px}.about{grid-template-columns:1fr;padding:20px}.portrait-box{max-width:190px;margin:auto}.grid{grid-template-columns:1fr}.project{min-height:0}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
 <header>
-<div class="hero-banner">
-  <div class="hero-content">
-    <div class="eyebrow">Personal Programming Portfolio</div>
-    <h1>Terra Nova Development</h1>
-    <p class="subtitle">My Projects — Software, Websites &amp; Community Initiatives</p>
-    <a class="coffee-btn" href="https://buymeacoffee.com/billbuttso" target="_blank" rel="noopener noreferrer">☕ Buy Me a Coffee</a>
-  </div>
+<div class="hero-banner"><img src="images/terra-nova-banner.webp" alt="Terra Nova Development — Phase One The Bones, Phase Ten The Fleshing" width="1600" height="1067"></div>
+<div class="hero-content">
+  <div class="eyebrow">Personal Programming Portfolio</div>
+  <h1>Terra Nova Development</h1>
+  <p class="subtitle">My Projects — Software, Websites &amp; Community Initiatives</p>
+  <a class="coffee-btn" href="https://buymeacoffee.com/billbuttso" target="_blank" rel="noopener noreferrer">☕ Buy Me a Coffee</a>
 </div>
 </header>
 <main>
@@ -91,5 +89,5 @@ footer a{white-space:nowrap}
 <a class="project card-linked" href="https://terranovadevelopment.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Terra Nova Development"><img src="images/terra-nova-development.webp" alt="Terra Nova Development project illustration" loading="lazy"><div class="card-body"><h3>Terra Nova Development</h3><p>Software, websites, and community initiatives built around practical systems thinking.</p><span class="card-action">Visit Terra Nova Development ↗</span></div></a>
 </section>
 </main>
-<footer>Terra Nova Development · Website and software projects · Version 1.4 · <a href="https://buymeacoffee.com/billbuttso" target="_blank" rel="noopener noreferrer">Buy Me a Coffee</a></footer>
+<footer>Terra Nova Development · Website and software projects · Version 1.5 · <a href="https://buymeacoffee.com/billbuttso" target="_blank" rel="noopener noreferrer">Buy Me a Coffee</a></footer>
 </body></html>
