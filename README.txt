@@ -25,3 +25,5 @@ Version 1.1: GameTopia project card link updated to https://gametopia-playtest.o
 
 
 Version 1.3 update: adds the Terra Nova Development banner artwork as the top website banner.
+
+Version 1.4 update: banner width reduced by 40% (shown at 60% width), centered, with proportions preserved.
