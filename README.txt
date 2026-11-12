@@ -1,21 +1,20 @@
-Terra Nova Development — My Projects (Updated)
+MyProjects Website — Version 1.0
 
-Files:
-- index.html: complete standalone static website.
+Terra Nova Development — MyProjects — November 12, 2026 update
 
-Changes:
-- Added a GameTopia link (known Render frontend address; confirm the deployment works).
-- Kept the Medicare for All website link.
-- Marked Universal Healthcare Social and Hemplopedia Under Construction.
-- Added a separate Texas Great Cuts project card, currently in development.
-- Added a Terra Nova Development card linking to the GitHub organization.
-- Retained Terra Nova University and Give & Take.
+Included:
+- Real Willis Butts portrait at top (images/willis-butts.jpg)
+- Programming since 1980 and $30/hour introductory pricing
+- Buy Me a Coffee button: https://buymeacoffee.com/billbuttso
+- Clickable full cards for: GameTopia, Medicare for All, Terra Nova Development, Texas Great Cuts
+- The other four projects are labelled as in development
+- Eight illustration files under images/
 
-Deployment:
-1. Open the GitHub repository used for this portfolio.
-2. Replace the root index.html with the one in this ZIP and commit changes.
-3. Render Static Site with Auto Deploy enabled should redeploy from GitHub.
+TO PUBLISH:
+Upload index.html and the entire images/ folder to the root of the GitHub repository
+https://github.com/terranovadevelopment/myprojects
+Then commit to main. Render should redeploy if Auto Deploy is enabled.
 
-No environment variables or build system required.
+Note: Do not upload only index.html; the portraits and project images require the images/ directory.
 
-Note: A screenshot alone cannot confirm current live website HTML or production link statuses. This ZIP updates the starter portfolio design.
+ZIP CONTENTS: FLAT ROOT (index.html and README.txt at root; images/ next to them).

@@ -1,30 +1,82 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Terra Nova Development — personal programming projects, websites and community initiatives.">
-<title>Terra Nova Development | My Projects</title>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Willis Butts, programmer since 1980 and experienced systems designer. Explore software, websites and community projects. Programming services starting at $30 per hour.">
+<title>Willis Butts | Terra Nova Development — My Projects</title>
 <style>
-:root{color-scheme:dark;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif}*{box-sizing:border-box}
-body{margin:0;background:#102238;color:#f7fbff;font-size:17px;line-height:1.55}
-header{background:#17496d;text-align:center;padding:46px 18px 41px;border-bottom:1px solid #2d668c}
-h1{font-size:clamp(2rem,4.5vw,3.1rem);line-height:1.14;margin:0 0 11px}
-header p{margin:0;color:#e3f3ff} main{max-width:1100px;margin:auto;padding:35px 20px 60px}
-h2{font-size:1.5rem;margin:0 0 22px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
-.project{background:#213d59;border:1px solid #345671;border-radius:14px;padding:25px;min-height:230px;display:flex;flex-direction:column;align-items:flex-start}
-h3{font-size:1.26rem;line-height:1.3;margin:0 0 17px}.project p{margin:0 0 18px}
-a{color:#a3e5ff}a:focus-visible{outline:3px solid #ffc04d;outline-offset:4px}
-.project-link{margin-top:auto;font-weight:650;text-underline-offset:3px}.project-link:hover{color:white}
-.status{background:#6a4b0e;color:#ffe4a0;font-size:.78rem;font-weight:700;padding:4px 10px;border-radius:20px;margin:0 0 17px}
-footer{text-align:center;padding:24px 15px;border-top:1px solid #345671;color:#c2d7e8}
-@media(max-width:600px){main{padding:24px 15px 45px}.project{min-height:0}}
-</style></head><body>
-<header><h1>Terra Nova Development</h1><p>My Projects — Software, Websites &amp; Community Initiatives</p></header>
-<main><h2>Project Portfolio</h2><section class="grid" aria-label="Project listings">
-<article class="project"><h3>GameTopia / ARMAGEDDON</h3><p>Multiplayer strategy game and online gaming platform.</p><a class="project-link" href="https://gametopia-frontend.onrender.com/" target="_blank" rel="noopener noreferrer">Visit GameTopia <span aria-hidden="true">↗</span></a></article>
-<article class="project"><h3>Medicare for All</h3><p>Healthcare reform articles, research, and resources.</p><a class="project-link" href="https://terranovadevelopment.github.io/MedicareForAll/" target="_blank" rel="noopener noreferrer">Visit website <span aria-hidden="true">↗</span></a></article>
-<article class="project"><h3>Universal Healthcare Social</h3><span class="status">Under Construction</span><p>A community platform for serious discussion of universal healthcare.</p></article>
-<article class="project"><h3>Hemplopedia</h3><span class="status">Under Construction</span><p>A free online encyclopedia of hemp, based on the published reference book.</p></article>
-<article class="project"><h3>Terra Nova University</h3><span class="status">Concept in Development</span><p>A vision for free lifelong education accessible worldwide.</p></article>
-<article class="project"><h3>Give &amp; Take</h3><span class="status">Concept in Development</span><p>Community sharing centers connecting donated goods to those who need them.</p></article>
-<article class="project"><h3>Texas Great Cuts</h3><span class="status">Website in Development</span><p>A local salon website project created as a demonstration of AI-assisted website development.</p></article>
-<article class="project"><h3>Terra Nova Development</h3><p>An umbrella for software, websites, and community initiatives.</p><a class="project-link" href="https://github.com/TerraNovaDevelopment" target="_blank" rel="noopener noreferrer">View GitHub projects <span aria-hidden="true">↗</span></a></article>
-</section></main><footer>Terra Nova Development, Inc. · My Projects</footer></body></html>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#0e1d31;color:#f6fbff;line-height:1.6}
+a{color:#9cdefe}
+a:focus-visible{outline:3px solid #ffcc55;outline-offset:4px}
+header{background:linear-gradient(115deg,#123c60,#176080 58%,#153e60);padding:64px 20px;text-align:center;border-bottom:1px solid #416780}
+header .eyebrow{font-size:.88rem;text-transform:uppercase;letter-spacing:.19em;color:#b9eafc;font-weight:700}
+h1{font-size:clamp(2.1rem,5vw,3.7rem);line-height:1.15;margin:10px 0}
+header .subtitle{font-size:1.13rem;color:#e5f3fb;margin:0}
+.coffee-btn{display:inline-flex;align-items:center;justify-content:center;margin-top:23px;background:#ffdd6b;color:#242319;text-decoration:none;font-weight:800;border-radius:999px;padding:12px 24px;box-shadow:0 5px 18px #0003;transition:transform .15s,background .15s}
+.coffee-btn:hover{background:#fff0a7;transform:translateY(-2px)}
+main{max-width:1130px;margin:auto;padding:34px 20px 76px}
+.about{display:grid;grid-template-columns:190px 1fr;gap:26px;align-items:center;background:#172f47;border:1px solid #39617d;border-radius:19px;padding:26px;margin-bottom:42px}
+.portrait{aspect-ratio:1;overflow:hidden;display:grid;place-items:center;background:linear-gradient(140deg,#226087,#16283e);border:2px solid #72a8c7;border-radius:18px;position:relative}
+.portrait img{width:100%;height:100%;object-fit:cover}
+.portrait .initials{font-size:3.7rem;color:#d8f2ff;font-weight:700;letter-spacing:.04em}
+.portrait-caption{text-align:center;font-size:.72rem;color:#b4d4e5;margin-top:8px}
+.about h2{font-size:1.65rem;line-height:1.25;margin:0 0 8px}
+.about p{margin:0 0 12px;color:#deebf4}
+.about p:last-child{margin-bottom:0}
+.rate{color:#ffdc81;font-weight:750;font-size:1.13rem}
+.section-header{display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;margin:0 0 19px}
+.section-header h2{font-size:1.6rem;margin:0}
+.section-header span{color:#a9c9db;font-size:.9rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:19px}
+.project{display:flex;flex-direction:column;min-height:365px;background:#203b56;border:1px solid #345a77;border-radius:15px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 5px 20px #0002;transition:transform .16s, border-color .16s,box-shadow .16s}
+.project img{width:100%;height:165px;object-fit:cover;display:block;background:#355d7f}
+.card-body{display:flex;flex-direction:column;flex:1;padding:20px 21px}
+.project h3{font-size:1.2rem;line-height:1.3;margin:0 0 10px}
+.project p{color:#d9e7f1;font-size:.96rem;margin:0 0 20px}
+.card-action{display:inline-block;margin-top:auto;font-size:.86rem;font-weight:750;color:#102840;background:#b0e9ff;padding:8px 12px;border-radius:8px;align-self:flex-start}
+.project-in-progress .card-action{background:#735519;color:#fff1ca}
+.card-linked:hover{transform:translateY(-4px);border-color:#85d9ff;box-shadow:0 10px 25px #0005}
+.card-linked:hover .card-action{background:white}
+footer{border-top:1px solid #355873;text-align:center;padding:30px 20px;color:#b8cddb;font-size:.9rem}
+footer a{white-space:nowrap}
+@media(max-width:650px){header{padding:48px 17px}.about{grid-template-columns:1fr;padding:20px}.portrait-box{max-width:190px;margin:auto}.grid{grid-template-columns:1fr}.project{min-height:0}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header>
+<div class="eyebrow">Personal Programming Portfolio</div>
+<h1>Terra Nova Development</h1>
+<p class="subtitle">My Projects — Software, Websites &amp; Community Initiatives</p>
+<a class="coffee-btn" href="https://buymeacoffee.com/billbuttso" target="_blank" rel="noopener noreferrer">☕ Buy Me a Coffee</a>
+</header>
+<main>
+<section class="about" aria-labelledby="about-title">
+ <div class="portrait-box">
+ <div class="portrait"><img src="images/willis-butts.jpg" alt="Portrait of Willis Butts" width="420" height="420"></div>
+ <div class="portrait-caption">Willis Butts · Programmer since 1980</div>
+ </div>
+ <div>
+ <h2 id="about-title">About Me — Willis Butts</h2>
+ <p>I've been a programmer since <strong>1980</strong>, with decades of experience in systems design and systems engineering. I approach each project as a complete system: understanding the problem, designing a practical solution, and building software that works for the people who use it.</p>
+ <p>My work and interests include custom programming, web development, online platforms, and community-focused technology. I enjoy finding straightforward solutions to complex problems.</p>
+ <p class="rate">Available for custom programming and systems-design projects — rates starting at $30 per hour.</p>
+ </div>
+</section>
+<div class="section-header"><h2>Project Portfolio</h2><span>Click a project card to visit its website when available.</span></div>
+<section class="grid" aria-label="My Projects">
+<a class="project card-linked" href="https://gametopia-frontend.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Open GameTopia / ARMAGEDDON"><img src="images/gametopia.webp" alt="GameTopia / ARMAGEDDON project illustration" loading="lazy"><div class="card-body"><h3>GameTopia / ARMAGEDDON</h3><p>A multiplayer strategy game and an online platform for strategic gaming.</p><span class="card-action">Visit GameTopia ↗</span></div></a>
+<a class="project card-linked" href="https://terranovadevelopment.github.io/MedicareForAll/" target="_blank" rel="noopener noreferrer" aria-label="Open Medicare for All"><img src="images/medicare-for-all.webp" alt="Medicare for All project illustration" loading="lazy"><div class="card-body"><h3>Medicare for All</h3><p>Healthcare reform articles, research, and proposals for universal coverage.</p><span class="card-action">Visit Medicare for All ↗</span></div></a>
+<article class="project project-in-progress"><img src="images/universal-healthcare-social.webp" alt="Universal Healthcare Social project illustration" loading="lazy"><div class="card-body"><h3>Universal Healthcare Social</h3><p>A community dedicated to serious discussion of universal healthcare.</p><span class="card-action">Under Construction </span></div></article>
+<article class="project project-in-progress"><img src="images/hemplopedia.webp" alt="Hemplopedia project illustration" loading="lazy"><div class="card-body"><h3>Hemplopedia</h3><p>A freely accessible online encyclopedia of hemp, based on my published reference book.</p><span class="card-action">Under Construction </span></div></article>
+<article class="project project-in-progress"><img src="images/terra-nova-university.webp" alt="Terra Nova University project illustration" loading="lazy"><div class="card-body"><h3>Terra Nova University</h3><p>A vision of lifelong, tuition-free online learning for everyone, everywhere.</p><span class="card-action">Concept in Development </span></div></article>
+<article class="project project-in-progress"><img src="images/give-and-take.webp" alt="Give &amp; Take project illustration" loading="lazy"><div class="card-body"><h3>Give &amp; Take</h3><p>A community sharing initiative connecting useful donated goods with those who need them.</p><span class="card-action">Concept in Development </span></div></article>
+<a class="project card-linked" href="https://texas-great-cuts.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Texas Great Cuts"><img src="images/texas-great-cuts.webp" alt="Texas Great Cuts project illustration" loading="lazy"><div class="card-body"><h3>Texas Great Cuts</h3><p>A website project for a local salon in Corinth, Texas.</p><span class="card-action">Visit Texas Great Cuts ↗</span></div></a>
+<a class="project card-linked" href="https://terranovadevelopment.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Terra Nova Development"><img src="images/terra-nova-development.webp" alt="Terra Nova Development project illustration" loading="lazy"><div class="card-body"><h3>Terra Nova Development</h3><p>Software, websites, and community initiatives built around practical systems thinking.</p><span class="card-action">Visit Terra Nova Development ↗</span></div></a>
+</section>
+</main>
+<footer>Terra Nova Development · Website and software projects · Version 1.0 · <a href="https://buymeacoffee.com/billbuttso" target="_blank" rel="noopener noreferrer">Buy Me a Coffee</a></footer>
+</body></html>
